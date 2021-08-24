@@ -1,46 +1,103 @@
-# Getting Started with Create React App
+<div align="center" >
+  <img src="./src/assets/logo.svg" width="150px"/>
+  <h1 > Github Explorer</h1>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📕 Índice
 
-## Available Scripts
+- [📋 Sobre](#Sobre)
+- [🕹 Tecnologias](#Tecnologias)
+- [🧑🏽‍💻 Iniciando o projeto](#Iniciando)
+- [👨🏽‍🔧 Contribuições](#Contribuições)
+- [📝 Licença](#Licença)
+- [🦸 Contatos](#Contatos)
 
-In the project directory, you can run:
+<hr>
 
-### `yarn start`
+<!-- About -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Sobre
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Projeto criado para estudar e praticar os fundamentos do ReactJS. Com requisições API a aplicação consiste em pesquisar e listar os repositórios e ver o detalhe de cada, assim como, mostrando suas issues.
 
-### `yarn test`
+![GithubExplorer](https://i.imgur.com/is06jRj.png)
+<!-- TECHNOLOGIES -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Tecnologias
 
-### `yarn build`
+- [Tecnologias]()
+  - [React JS](https://pt-br.reactjs.org/)
+    - [TypeScript](https://www.typescriptlang.org/)
+  - [React-router-dom](https://reactrouter.com/web/guides/quick-start)
+  - [Styled-components](https://styled-components.com/)
+  - [Axios](https://github.com/axios/axios)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Dependências]()
+  - [Eslint](https://eslint.org/)
+  - [Prettier](https://prettier.io/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<hr>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- TECHNOLOGIES -->
 
-### `yarn eject`
+# Iniciando
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+##### Pré-requisitos
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Node JS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  ```sh
+  https://nodejs.org/en/
+  ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Yarn ou Npm
 
-## Learn More
+  ```sh
+  https://yarnpkg.com/
+  ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<hr>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Instalação e uso
+
+```bash
+# Execute este comando para clonar o projeto
+$ git clone https://github.com/WelissonLuca/github-explorer
+# ou use a opção de download.
+
+# Entre na pasta com
+$ cd github-explorer
+
+# Instale as dependências
+$ yarn ou npm install
+
+# Rode a aplicação usando o comando
+$ yarn start ou npm start
+```
+
+#### Deploy
+
+- <https://github-explorer-lime.vercel.app/>
+
+<!-- CONTRIBUTING -->
+
+# Contribuições
+
+1. Faça um Fork do projeto
+2. Crie uma Branch para sua Feature (`git checkout -b feature/FeatureIncrivel`)
+3. Adicione suas mudanças (`git add .`)
+4. Comite suas mudanças (`git commit -m 'Adicionando uma Feature incrível!`)
+5. Faça o Push da Branch (`git push origin feature/FeatureIncrivel`)
+6. Abra uma Pull Request
+<!-- LICENSE -->
+
+# Licença
+
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+
+<!-- CONTACT -->
+
+# Contatos
+
+ | [<img src="https://avatars.githubusercontent.com/u/62263143?v=4" width="115"><br><sub>@WelissonLuca</sub>](https://github.com/WelissonLuca) |
+| --------------------------------------------------------------------------------------------------------------------------------------
